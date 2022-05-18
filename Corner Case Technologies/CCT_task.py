@@ -36,7 +36,6 @@ def find_maximum_distance(
                         cityList[i] = count
                     break
     
-    print(cityList)
     maxDistance = max(cityList)
     if maxDistance == -2 or maxDistance == -1:
         maxDistance = 0
